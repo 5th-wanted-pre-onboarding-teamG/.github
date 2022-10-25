@@ -9,10 +9,19 @@
 |최영남|팀원|https://github.com/nuobasic|nuobasic@naver.com| 
 |최은강|팀원|https://github.com/loveAlakazam|dmsrkd1216@gmail.com|
 
+<br>
+
 ## 🗓 프리온보딩 진행 기간
 ```2022.10.25 ~ 2022.11.18```
 
+
+## [📝 Team G Notion](https://www.notion.so/Team-G-db8f81b91e314bc49494340b6ea99bd2)
+
+<br>
+
 ## 📕 Projects
+
+<br>
 
 ## ✅ Git Convenvtion
 ### Commit message
@@ -25,15 +34,16 @@
 #
 # 주의사항: 
 # - 하나의 커밋에는 **한가지 기능만** 포함합니다!
-# - 애매모호하게 하지말아주세요 (Bad Case ex2 참고)
+# - 애매모호하게 하지말아주세요 (Bad (ex2) 참고)
 #
-# Good  (ex) feat : 유저 모델 생성
-#       (ex) feat : 유저 모델 Create API 개발
-#       (ex) test : 유저 모델 Create API Testcase 작성
-#       (ex) refactor: 유저 로그인 API 리팩토링
+# Good  (ex1) feat : 유저 모델 생성
+#       (ex2) feat : 유저 모델 Create API 개발
+#       (ex3) test : 유저 모델 Create API Testcase 작성
+#       (ex4) refactor: 유저 로그인 API 리팩토링
 #
-# Bad (ex) feat : 유저, 회사 CRUD API 개발
-#     (ex) refactor: 리팩토링
+# Bad (ex1) feat : 유저, 회사 CRUD API 개발
+#     (ex2) refactor: 리팩토링
+#     (ex3) 유저 모델 생성
 #
 # --- 본문(content) - 72자마다 줄바꾸기  ---
 # 예시(ex) :
@@ -105,6 +115,10 @@ PR 리뷰어는 팀원 전원으로 합니다.
   - Pascal Case (ex: `SampleModel`)
   - Model Field: camelCase (ex: `sampleField`)
   - Model Method: camelCase (ex: `sampleMethod()`)
+  - Modeling Conventions
+    - 1:1 관계: 단수
+    - 1:N 관계: 복수
+    - M:N 관계: 중간 연결 테이블은 단수, 메인테이블은 복수
   
 - Function
   - camelCase (ex: `getUser()` )
